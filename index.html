@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI</title>
+    <link
+      rel="stylesheet"
+      href="bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css"
+    />
+    <script src="bootstrap-5.2.0-beta1-dist/js/jquery.min.js"></script>
+    <script src="bootstrap-5.2.0-beta1-dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="font.css" />
+    <script src="custom.js"></script>
+  </head>
+  <body class="container-fluid">
+    <div class="row">
+      <div
+        class="col-md-4 offset-md-4 offset-sm-1 col-sm-10 center p-md-4 p-sm-5 bg-warning mt-4 rounded"
+      >
+        <h1 class="bmi text-center">BMI</h1>
+        <form name="myForm">
+          <p>Enter your height.</p>
+
+          <div class="input-group mb-1">
+            <input
+              id="feet"
+              type="number"
+              class="form-control"
+              aria-describedby="basic-addon2"
+            />
+            <span class="input-group-text" id="basic-addon2"
+              >&nbsp;ft&nbsp;&nbsp;</span
+            >
+            <div id="validationServer03Feedback" class="invalid-feedback">
+              Please provide a valid feet.
+            </div>
+          </div>
+
+          <br />
+
+          <div class="input-group mb-1">
+            <input
+              id="inches"
+              type="number"
+              class="form-control"
+              aria-describedby="basic-addon2"
+            />
+            <span class="input-group-text" id="basic-addon2">ins</span>
+            <div id="validationServer03Feedback" class="invalid-feedback">
+              Please provide a valid inches.
+            </div>
+          </div>
+
+          <br />
+          <p>Enter your weight.</p>
+
+          <div class="input-group mb-4">
+            <input
+              id="lbs"
+              type="number"
+              class="form-control"
+              aria-describedby="basic-addon2"
+            />
+            <span class="input-group-text" id="basic-addon2">lbs</span>
+            <div id="validationServer03Feedback" class="invalid-feedback">
+              Please provide a valid lbs.
+            </div>
+          </div>
+
+          <button
+            type="submit"
+            class="btn btn-outline-danger w-50"
+            onclick="myfunction(event)"
+          >
+            Start
+          </button>
+        </form>
+        <br />
+        <h4 id="result"></h4>
+        <h4 id="showresult"></h4>
+      </div>
+    </div>
+  </body>
+</html>

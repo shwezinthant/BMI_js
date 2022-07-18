@@ -1,0 +1,10 @@
+* {
+  font-family: "cc";
+}
+.center {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.bmi {
+  color: red;
+}

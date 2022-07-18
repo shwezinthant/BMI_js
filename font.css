@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "aa";
+  src: url("fonts/Suravaram/Suravaram-Regular.ttf");
+}
+
+@font-face {
+  font-family: "b";
+  src: url("fonts/Poly/Poly-Italic.ttf");
+}
+@font-face {
+  font-family: "bb";
+  src: url("fonts/Poly/Poly-Regular.ttf");
+}
+
+@font-face {
+  font-family: "m";
+  src: url("fonts/Padauk/Padauk-Bold.ttf");
+}
+@font-face {
+  font-family: "mm";
+  src: url("fonts/Padauk/Padauk-Regular.ttf");
+}
+
+@font-face {
+  font-family: "cc";
+  src: url("fonts/Averia_Serif_Libre/AveriaSerifLibre-Light.ttf");
+}
+
+@font-face {
+  font-family: "dd";
+  src: url("fonts/Farsan/Farsan-Regular.ttf");
+}
+
+@font-face {
+  font-family: "ee";
+  src: url("fonts/Liu_Jian_Mao_Cao/LiuJianMaoCao-Regular.ttf");
+}
